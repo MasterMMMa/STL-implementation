@@ -1,0 +1,73 @@
+test case 1: basic vector function
+12
+push 11
+push 12
+push 321
+print
+size
+capacity
+insert 1 123
+capacity
+size
+print
+pop
+print
+
+expected behavior:
+
+
+
+test case 2: copy constructor and iterator
+11
+push 1
+push 2
+push 3
+copy
+interator
+clear
+print
+clear
+print
+push 4
+print
+
+test case 3: exception handling
+12
+push 1
+get 100
+get -1
+pop
+pop
+inert 100 100
+exit
+
+test case 4: dynamic expansion
+21
+push 1
+push 2
+push 3
+push 4
+push 5
+push 6
+push 7
+push 8
+push 9
+push 10
+push 11
+push 12
+push 13
+push 14
+push 15
+push 16
+capacity
+push 17
+capacity
+print
+exit
+
+test case 5: test vector of string
+12
+push "hello"
+push " "
+push "world"
+print
